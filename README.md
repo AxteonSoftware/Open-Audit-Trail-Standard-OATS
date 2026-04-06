@@ -17,10 +17,4 @@ OATS defines a **canonical audit trail model** that enables:
 
 ---
 
-## 🧩 Core Concept
-
-Every audit trail entry is normalized into a single structure:
-
-```json
-AuditTrailEvent
 
