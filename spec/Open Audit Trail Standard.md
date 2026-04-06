@@ -4,7 +4,7 @@
 # 📄 spec/audit-trail-spec.md
 
 ```markdown
-# OATS Specification v0.1
+# Open Audit Trail Standard (OATS) Specification v0.1
 
 ## 1. Overview
 
