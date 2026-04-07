@@ -1,16 +1,17 @@
-# Open Audit Trail Standard (OATS)
+# Open Audit Trail Standard (OATS) v1.0
 
 ## Table of contents
 
-1. Open Audit Trail Standard (OATS) Specification  
-2. OATS Technical Details  
+1. Open Audit Trail Standard (OATS)
+2. OATS technical details  
 3. How other systems (e.g., LIMS, MES) map the defined objects  
 4. OATS – How to implement an Audit Trail  
-5. History and background  
+5. History and background
+6. About the founder
 
 ---
 
-## 1. Open Audit Trail Standard (OATS) specification
+## 1. Open Audit Trail Standard (OATS)
 
 An open, vendor-neutral standard for designing, storing, and analyzing audit trails in GxP-regulated systems.
 
@@ -65,9 +66,9 @@ OATS does not prescribe specific technologies, databases, or implementation fram
 
 The most effective way to standardize an audit trail is to use consistent and unambiguous field names in the database. OATS recommends naming the fields exactly as defined in the standard to ensure clarity, interoperability, and ease of interpretation across different systems.
 
-- [ ] UniqueIdentifier  
+- [ ] ID  
 - [ ] Timestamp  
-- [ ] UserName  
+- [ ] UserID  
 - [ ] Operation  
 - [ ] ObjectType  
 - [ ] Object  
@@ -77,11 +78,14 @@ The most effective way to standardize an audit trail is to use consistent and un
 - [ ] Reason  
 - [ ] Source  
 
-Example from Axteon Audit Trail Review software.
+Examples 
+- examples/gxp-even.json
+- Audit Trail Table - Axteon Audit Trail Review.png
+
 
 ---
 
-### UniqueIdentifier  
+### ID  
 A unique identifier for each audit trail event.  
 Ensures every recorded action can be referenced, traced, and retrieved without ambiguity.
 
@@ -89,9 +93,11 @@ Ensures every recorded action can be referenced, traced, and retrieved without a
 The exact date and time when the event occurred.  
 Used to reconstruct sequences of actions, support investigations, and demonstrate data integrity.
 
-### UserName  
+### UserID
 The person or system account that performed the action.  
 Provides accountability and supports compliance with GxP and FDA expectations for traceability.
+
+The UserID should identify the user who performs an action, so it should be the login name or a combination of the login name with the user’s first and last name. Using only the last name is not a unique identifier, so it is not a good choice.
 
 ### Operation  
 The type of action performed, such as create, update, delete, approve, or login.  
@@ -135,7 +141,7 @@ Consistent terminology is essential to ensure that reviewers, auditors, and inve
 
 ---
 
-### UniqueIdentifier  
+### ID  
 Common equivalents:  
 eventID, AuditID, Record ID, AuditEntryID, AuditTrailID, logID  
 
@@ -147,7 +153,7 @@ date, time, timestamp, event timestamp, EventTime, created at, recorded at, logg
 
 ---
 
-### UserName  
+### UserID  
 Common equivalents:  
 user ID, operator, performed by, login, full name, modified by, changed by, executed by  
 
@@ -213,14 +219,38 @@ This comparison allows you to identify which fields have changed and record thos
 
 The Open Audit Trail Standard (OATS) was founded by Adrian Krzesniak following extensive research on audit trail practices conducted in 2026. This research revealed that audit trails across GxP-regulated systems lacked consistency in structure, terminology, and data representation. These inconsistencies created significant challenges for auditors, investigators, and software vendors, often leading to misunderstandings, inefficiencies, and avoidable GxP nonconformances.
 
-Recognizing the need for a unified and vendor-neutral approach, Adrian Krzesniak initiated the development of OATS as an open standard that any software provider could adopt. The goal was to create a common language and structure for audit trail data, one that would improve clarity, interoperability, and regulatory readiness across the entire life sciences ecosystem.
+Recognizing the need for a unified and vendor-neutral approach, Adrian Krzesniak initiated the development of OATS as an open standard that any software provider could adopt. The goal was to create a common language and structure for audit trail data—one that would improve clarity, interoperability, and regulatory readiness across the entire life sciences ecosystem.
 
 OATS was designed from the beginning to be technology-agnostic, allowing it to be implemented in any system architecture or database model. Its development was informed by real-world system comparisons, regulatory expectations, and feedback from professionals working in pharmaceuticals, biotechnology, and quality management.
+
+
+## 7. About the founder
+
+
+Adrian Krześniak combines his expertise in software development, regulatory compliance, and computer system validation to create solutions that address the unique challenges of GxP-regulated industries. With a background in both software development and computer system validation, he has a deep understanding of the complexities involved in maintaining data integrity, ensuring compliance, and supporting efficient operations in regulated environments.
 
 More information about the founder can be found on his professional profile:  
 https://www.linkedin.com/in/adriankrzesniak/
 
-Amazon books https://axteon.com/computer-system-validation/Books
+Adrian is a well-known computer system validation trainer, with courses on Udemy covering topics such as:
 
-Udemy trainings https://axteon.com/computer-system-validation/Training
+- Validation and Maintenance of Computerized Systems
+- Computer System Assurance – Quality Assurance of Computerized Systems
+- Agile Validation in GxP
+- Data Integrity for Computerized Systems in GxP
+- Validation of Mobile Applications
+- Spreadsheet Validation Based on GAMP 5
+- Validation of AI & ML GxP Systems
+- Auditing GxP Computer Systems for Regulatory Compliance
+
+https://axteon.com/computer-system-validation/Books
+
+Adrian has also written several books, published on Udemy as books and eBooks:
+
+- Software Development for GxP-Regulated Industries: Delivering GxP-Compliant Software in an Agile Way
+- Data Integrity in Computerized Systems: Data Integrity and GxP
+- Digital Validation: Digital Transformation of Computer System Validation and Maintenance Processes
+- Software Development Manager Guide: People, Process, Tools, Delivery
+
+https://axteon.com/computer-system-validation/Training
 
