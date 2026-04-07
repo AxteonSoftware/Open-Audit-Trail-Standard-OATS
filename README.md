@@ -2,19 +2,17 @@
 
 An open, vendor-neutral standard for designing, storing, and analyzing audit trails in GxP-regulated systems.
 
----
+OATS is intended for software product companies that build solutions for GxP-regulated industries such as pharmaceuticals and life sciences. Its goal is to standardize audit trail fields across different software systems, making audit data easier to interpret, compare, and analyze.
 
-## 🎯 Purpose
-
-Audit trails across systems (LIMS, MES, QMS, etc.) are inconsistent, making audits, integration, and analysis difficult.
-
-OATS defines a **canonical audit trail model** that enables:
-
-- Interoperability across systems
-- Consistent audit trail structure
-- Easier regulatory compliance (FDA, GxP)
-- Centralized audit trail analysis
+By establishing a common structure and shared definitions, OATS improves cross-system interoperability, enhances clarity around the meaning of each audit field, and supports more efficient compliance, reporting, and investigation activities.
 
 ---
+
+# OATS founder
+
+OATS was originally founded by Adrian Krzesniak, based on research conducted on audit trail practices in 2026.
+
+More information about the founder can be found on his professional profile:  
+https://www.linkedin.com/in/adriankrzesniak/
 
 
