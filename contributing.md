@@ -11,5 +11,4 @@ We welcome contributions to improve OATS.
 ## Guidelines
 
 - Keep the standard vendor-neutral
-- Ensure backward compatibility
 - Provide examples when possible
