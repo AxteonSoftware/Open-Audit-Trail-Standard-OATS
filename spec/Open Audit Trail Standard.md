@@ -213,7 +213,7 @@ This comparison allows you to identify which fields have changed and record thos
 
 The Open Audit Trail Standard (OATS) was founded by Adrian Krzesniak following extensive research on audit trail practices conducted in 2026. This research revealed that audit trails across GxP-regulated systems lacked consistency in structure, terminology, and data representation. These inconsistencies created significant challenges for auditors, investigators, and software vendors, often leading to misunderstandings, inefficiencies, and avoidable GxP nonconformances.
 
-Recognizing the need for a unified and vendor-neutral approach, Adrian Krzesniak initiated the development of OATS as an open standard that any software provider could adopt. The goal was to create a common language and structure for audit trail data—one that would improve clarity, interoperability, and regulatory readiness across the entire life sciences ecosystem.
+Recognizing the need for a unified and vendor-neutral approach, Adrian Krzesniak initiated the development of OATS as an open standard that any software provider could adopt. The goal was to create a common language and structure for audit trail data, one that would improve clarity, interoperability, and regulatory readiness across the entire life sciences ecosystem.
 
 OATS was designed from the beginning to be technology-agnostic, allowing it to be implemented in any system architecture or database model. Its development was informed by real-world system comparisons, regulatory expectations, and feedback from professionals working in pharmaceuticals, biotechnology, and quality management.
 
