@@ -80,7 +80,7 @@ The most effective way to standardize an audit trail is to use consistent and un
 
 Examples 
 - examples/gxp-even.json
-- Audit Trail Table - Axteon Audit Trail Review.png
+- examples/Audit Trail Table - Axteon Audit Trail Review.png
 
 
 ---
