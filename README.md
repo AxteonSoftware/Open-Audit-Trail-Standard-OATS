@@ -15,4 +15,10 @@ OATS was originally founded by Adrian Krzesniak, based on research conducted on 
 More information about the founder can be found on his professional profile:  
 https://www.linkedin.com/in/adriankrzesniak/
 
+Amazon books https://axteon.com/computer-system-validation/Books
+
+Udemy trainings https://axteon.com/computer-system-validation/Training
+
+
+
 
