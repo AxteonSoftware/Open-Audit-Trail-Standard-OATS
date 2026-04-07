@@ -1,13 +1,13 @@
 {
   "uniqueidentifier": "12345",
   "timestamp": "2026-04-04T10:15:30Z",
-  "user": "jdoe",
+  "username": "jdoe",
   "operation": "UPDATE",
-  "object_type": "Sample",
+  "objecttype": "Sample",
   "object": "Sample-001",
   "field": "Status",
-  "old_value": "Pending",
-  "new_value": "Approved",
+  "oldvalue": "Pending",
+  "newvalue": "Approved",
   "reason": "Correction after review",
   "source": "LIMS-01"
 }
