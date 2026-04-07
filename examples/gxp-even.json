@@ -1,5 +1,5 @@
 {
-  "event_id": "12345",
+  "uniqueidentifier": "12345",
   "timestamp": "2026-04-04T10:15:30Z",
   "user": "jdoe",
   "operation": "UPDATE",
