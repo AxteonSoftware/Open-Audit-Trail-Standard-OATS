@@ -133,7 +133,7 @@ Useful for identifying automated changes, integrations, or external systems cont
 
 ---
 
-## 4. How Other Systems Map the Defined Objects
+## 4. How other systems map the defined objects
 
 Many systems use different names for the same audit trail fields. While this may not cause technical issues within a single system, it creates significant challenges for those reviewing audit trails. Fields with different names or unclear meanings can lead to confusion, misinterpretation, and ultimately GxP nonconformances.
 
