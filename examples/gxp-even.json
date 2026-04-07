@@ -1,7 +1,7 @@
 {
-  "uniqueidentifier": "12345",
+  "id": "12345",
   "timestamp": "2026-04-04T10:15:30Z",
-  "username": "jdoe",
+  "userid": "jdoe",
   "operation": "UPDATE",
   "objecttype": "Sample",
   "object": "Sample-001",
