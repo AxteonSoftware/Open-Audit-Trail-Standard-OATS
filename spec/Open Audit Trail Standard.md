@@ -219,3 +219,8 @@ OATS was designed from the beginning to be technology-agnostic, allowing it to b
 
 More information about the founder can be found on his professional profile:  
 https://www.linkedin.com/in/adriankrzesniak/
+
+Books https://axteon.com/computer-system-validation/Books
+
+Trainings https://axteon.com/computer-system-validation/Training
+
